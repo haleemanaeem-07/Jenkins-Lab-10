@@ -1,20 +1,5 @@
-pipeline {
-    agent any 
-    stages {
-        stage('Build') { 
-            steps { 
-                echo 'Building..' 
-            } 
-        }
-        stage('Test') { 
-            steps { 
-                echo 'Testing..' 
-            } 
-        }
-        stage('Deploy') { 
-            steps { 
-                echo 'Deploying....' 
-            } 
-        }
-    }
-}
+Name: Haleema Naeem
+
+Roll Number: i221648
+
+Contribution: "Added Jenkins build step - Haleema Naeem (i221648)"
